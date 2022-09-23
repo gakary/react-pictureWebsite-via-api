@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(155,107,155);
+    ul{
+        display:flex;
+        //flex-end , 左-右
+        justify-content: flex-end;
+        //右有間隔
+        margin-right: 3rem;
+        li{
+            //nav nar tag space
+            padding:0.5rem 1rem;
+        }
+        a{
+            font-size:1.5rem;
+            color:white;
+        }
+    }
+}

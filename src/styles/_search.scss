@@ -1,0 +1,21 @@
+//className is seach
+.search{
+    //set the search bar in website middle
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    //同navbar 間隔
+    padding:3rem 0rem;
+
+    //when input the text looking
+    input,button{
+        font-size:2rem;
+        padding:0.25rem;
+        border:3px solid(43,0,43);
+    }
+    //button looking
+    button{
+        background-color: rgb(73,1,73);
+        color: white;
+    }
+}
